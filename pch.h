@@ -34,4 +34,4 @@ inline void print_err(std::string error, int code)
 	exit(1);
 }
 
-const std::string g_savepath="E:\\files\\本地文件\\test\\test.png";
+const std::string g_savepath="E:\\files\\本地文件\\test\\server\\";

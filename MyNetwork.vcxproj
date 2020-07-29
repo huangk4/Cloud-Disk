@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cmysql.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MD5.cpp" />
     <ClCompile Include="MyNetwork.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Session.cpp" />
@@ -28,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CheckOS.h" />
+    <ClInclude Include="MD5.h" />
     <ClInclude Include="MyNetwork.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Session.h" />
@@ -88,9 +91,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\code\C++\MyNetwork\mysqlh;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\code\C++\MyNetwork\mysqlh;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

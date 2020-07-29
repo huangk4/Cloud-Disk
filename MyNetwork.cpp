@@ -1,4 +1,3 @@
-#pragma once
 #include"ThreadPool.h"
 #include"Task.h"
 #include"MyNetwork.h"
